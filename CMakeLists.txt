@@ -169,7 +169,6 @@ elseif(UNIX)
     )
 
     find_package(X11)
-    find_library(X11 REQUIRED)
 
     add_definitions("-DLINUX=1")
     add_definitions("-D_POSIX_C_SOURCE=200809L")
